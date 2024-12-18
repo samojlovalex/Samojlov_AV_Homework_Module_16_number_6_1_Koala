@@ -1,0 +1,66 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--TODO: Overall dimensions-->
+    <dimen name="layout_width">0dp</dimen>
+    <dimen name="minHeight">48dp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <!--TODO: CardView-->
+    <dimen name="margin_CardVieW">8dp</dimen>
+    <dimen name="cardCornerRadius">6dp</dimen>
+    <dimen name="cardElevation">6dp</dimen>
+    <!--TODO: Main Activity-->
+    <dimen name="startImageAnimIV_sizeImage">300dp</dimen>
+    <dimen name="startTextAnimTV_textSize">30sp</dimen>
+    <dimen name="startTextAnimTV_elevation">6dp</dimen>
+    <!--TODO: Profile Fragment-->
+    <dimen name="button_text_size">10sp</dimen>
+    <!--TODO: Profile Item-->
+    <dimen name="profile_item_image_size">100dp</dimen>
+    <dimen name="profile_item_image_margin">16dp</dimen>
+    <dimen name="profile_item_login_text_size">25sp</dimen>
+    <!--TODO: Profile Alter Dialog-->
+    <dimen name="profile_alter_dialog_message_text_size">10sp</dimen>
+    <dimen name="profile_alter_dialog_margin">16dp</dimen>
+    <dimen name="profile_alter_dialog_login_text_size">20sp</dimen>
+    <dimen name="alterDialog_cornerRadius_16dp">16dp</dimen>
+    <dimen name="alterDialog_strokeWidth_1dp">1dp</dimen>
+    <dimen name="profile_edit_alterdialog_floatingActionButton_marginStart_310dp">310dp</dimen>
+    <dimen name="profile_edit_alterdialog_floatingActionButton_marginTop_32dp">32dp</dimen>
+    <dimen name="alter_dialog_profile_imageHeight_200dp">200dp</dimen>
+    <!--TODO: Delete Profile Alter Dialog-->
+    <dimen name="delete_profile_message_text_size">15sp</dimen>
+    <dimen name="profile_edit_alterdialog_floatingActionButton_borderWidth_2dp">2dp</dimen>
+    <!--TODO: Custom Item Layout-->
+    <dimen name="custom_item_layout_strokeWidth_1dp">1dp</dimen>
+    <!--TODO: Edit Image Alter Dialog-->
+    <dimen name="edit_image_size">200dp</dimen>
+    <dimen name="edit_image_margin">32dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!--TODO: Note Item-->
+    <dimen name="note_item_imageHeight_24dp">24dp</dimen>
+    <dimen name="note_item_textSizeNote_15sp">15sp</dimen>
+    <dimen name="note_item_maxHeightNote_150dp">150dp</dimen>
+    <dimen name="note_item_padding_text">4dp</dimen>
+    <dimen name="note_item_textSizeTime">12sp</dimen>
+    <!--TODO: Details Note Activity-->
+    <dimen name="categoriesSP_textSize_20sp">20sp</dimen>
+    <dimen name="textNoteET_20sp">20sp</dimen>
+    <dimen name="textNoteET_300dp">300dp</dimen>
+    <dimen name="minHeightSpinner">60dp</dimen>
+    <!--TODO: Frame Background-->
+    <dimen name="frame_radius">20dp</dimen>
+    <dimen name="frame_width">2dp</dimen>
+
+    <dimen name="activityWeather_CityTextSie">25sp</dimen>
+    <dimen name="activityWeather_WeatherImageSize">150dp</dimen>
+    <dimen name="activityWeather_LocationImageSize">50dp</dimen>
+    <dimen name="activityWeather_WeatherImageMargin">20dp</dimen>
+
+    <dimen name="Layout_TitleTextSize">20sp</dimen>
+    <dimen name="Layout_TextSize">13sp</dimen>
+
+
+</resources>

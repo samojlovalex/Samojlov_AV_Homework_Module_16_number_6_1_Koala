@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Samojlov_AV_Homework_Module_16_number_6_1_Koala</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_notes">Notes</string>
+    <string name="title_weather">Weather</string>
+    <!--TODO Menu-->
+    <string name="toolbar_title">Записная книжка</string>
+    <string name="toolbar_subtitle">Mod. 16 № 6</string>
+    <string name="exit">Exit</string>
+    <string name="toast_exit">Приложение закрыто</string>
+    <!--TODO: Profile Fragment-->
+    <string name="newProfileButtonBT_Text">New+</string>
+    <string name="deleteProfileButtonBT_text">Delete All</string>
+    <string name="login_password_incorrect_Toast">Код не верный</string>
+    <string name="delete_profile_alter_dialog_message_Text">Вы действительно хотите удалить профиль \"%1$s\"?\nИстория переписки данного пользователя будет удалена</string>
+    <string name="clearIcon_profile_alter_dialog_message_Text">Вы действительно хотите удалить иконку профиля \"%1$s\"?\n</string>
+    <string name="delete_profile_alert_dialog_Toast">%1$s удален</string>
+    <string name="delete_all_profiles_message_Text">Вы действительно хотите удалить все профили?\nИстория переписок будет очищена</string>
+    <string name="deleteAllProfile_Toast">cleared</string>
+    <!--TODO: Profile Item-->
+    <string name="loginProfileItemTV_Hint">Логин</string>
+    <!--TODO: Profile Enter Alter Dialog-->
+    <string name="profile_enter_alter_dialog_messageTV_Text">Введите пароль</string>
+    <string name="profile_enter_alter_dialog_button_saveBT_Text">Принять</string>
+    <!--TODO: Profile Edit Alter Dialog-->
+    <string name="profile_edit_alter_dialog_messageTV_Text">Измените логин, пароль или аватар профиля</string>
+    <string name="profile_edit_alter_dialog_button_deleteBT_Text">Удалить</string>
+    <string name="profile_edit_alter_dialog_button_exitBT_Text">Выход</string>
+    <!--TODO: Delete Profile Alter Dialog-->
+    <string name="delete_messageTV_Hint">Удаление</string>
+    <string name="delete_profile_enter_alter_dialog_button_deleteBT_Text">Удалить</string>
+    <!--TODO: Profile Alter Dialog-->
+    <string name="profile_alter_dialog_message_Text">Введите данные логина и пороля профиля\nВыберете аватар профиля (при необходимости)</string>
+    <string name="profile_alter_dialog_login_hint">Логин</string>
+    <string name="profile_alter_dialog_password_Hint">Пароль</string>
+    <string name="alter_dialog_button_cancelBT_Text">Отмена</string>
+    <string name="alter_dialog_button_saveBT_Text">Сохранить</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <!--TODO: Note Item-->
+    <string name="noteTextTV_Hint">Текст заметки</string>
+    <string name="match_parent_Hint">время, дата</string>
+
+    <string name="read_media_images_permission_toast">Разрешение не получено</string>
+    <string name="textNoteET_Hint">Текст заметки</string>
+
+    <string name="deleteNoteButtom">Удалить</string>
+    <string name="delete_note_toast">Заметка удалена</string>
+    <string name="delete_all_note_message">Вы действительно хотете удалить все заметки %1$s?</string>
+    <!--TODO: Weather-->
+    <string name="temperature_text">t ℃</string>
+    <string name="TemperatureGeneralTitle_Text">Температура</string>
+    <string name="apiKey">40b5053429fb6fc66c983f39bf05ca21</string>
+    <string name="feelsTitle_Text">ощущается</string>
+    <string name="temperatureMinTitle_Text">min</string>
+    <string name="temperatureMaxTitle_Text">max</string>
+    <string name="city_Hint">Город</string>
+    <string name="windSpeedTitle_Text">Скорость ветра</string>
+    <string name="windSpeed_Text">м/с</string>
+    <string name="windGustTitle_Text">порывы ветра</string>
+    <string name="visibilityTitle_Text">Видимость</string>
+    <string name="visibility_Text">м</string>
+    <string name="pressureTitle_Text">Атмосферное давление</string>
+    <string name="pressure_Text">кПа</string>
+    <string name="humidityTitle_Text">Относительная влажность</string>
+    <string name="humidity_Text">%</string>
+    <string name="cloudsTitle_Text">Облачность</string>
+    <string name="cityUpdateET_Hint">Город</string>
+    <string name="latitudeET_Hint">Широта</string>
+    <string name="longitude_Hint">Долгота</string>
+    <string name="app_error_Toast">app error %1$s</string>
+    <string name="http_error_Toast">http error %1$s</string>
+    <string name="startCityLoad">Москва</string>
+    <string name="metricUnits">metric</string>
+    <string name="lang_RU">ru</string>
+
+</resources>

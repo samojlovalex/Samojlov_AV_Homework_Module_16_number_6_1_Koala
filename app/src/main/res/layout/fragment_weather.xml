@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".ui.weather.WeatherFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/containerWeatherCV"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="@dimen/layout_width"
+        android:layout_margin="@dimen/margin_CardVieW"
+        android:alpha="0.99"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="@dimen/cardCornerRadius"
+        app:cardElevation="@dimen/cardElevation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/locationIconButtonIV"
+                        android:layout_width="@dimen/activityWeather_LocationImageSize"
+                        android:layout_height="@dimen/activityWeather_LocationImageSize"
+                        android:layout_margin="@dimen/margin_CardVieW"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/update_icon_24"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cityTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_weight="0.5"
+                        android:hint="@string/city_Hint"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="2"
+                        android:textColor="@color/Blue"
+                        android:textColorHint="@color/Blue"
+                        android:textSize="@dimen/activityWeather_CityTextSie"
+                        android:textStyle="bold"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/containerWeatherImageLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:id="@+id/weatherIV"
+                        android:layout_width="@dimen/activityWeather_WeatherImageSize"
+                        android:layout_height="@dimen/activityWeather_WeatherImageSize"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/activityWeather_WeatherImageMargin"
+                        android:src="@drawable/weather_start_icon"></ImageView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/containerTemperatureLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <include
+                        android:id="@+id/temperatureLayout"
+                        layout="@layout/element_temperature"></include>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/containerWindLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <include
+                        android:id="@+id/windLayout"
+                        layout="@layout/element_wind"></include>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/containerVisibilityLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <include
+                        android:id="@+id/visibilityLayout"
+                        layout="@layout/element_visibility"></include>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/containerCloudsLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <include
+                        android:id="@+id/cloudsLayout"
+                        layout="@layout/element_clouds"></include>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/containerPressureLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <include
+                        android:id="@+id/pressureLayout"
+                        layout="@layout/element_pressure"></include>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/containerHumidityLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <include
+                        android:id="@+id/humidityLayout"
+                        layout="@layout/element_humidity"></include>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

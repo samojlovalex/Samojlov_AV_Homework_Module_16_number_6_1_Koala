@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DetailsNoteActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/container_categoriesCV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/cardCornerRadius"
+        app:cardElevation="@dimen/cardElevation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Spinner
+            android:id="@+id/categoriesSP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/minHeight"
+            android:popupBackground="@color/white"
+            android:textColor="@color/Blue"
+            android:textSize="@dimen/categoriesSP_textSize_20sp"></Spinner>
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:id="@+id/container_noteTextSV"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_width"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/container_categoriesCV">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="@dimen/cardCornerRadius"
+                app:cardElevation="@dimen/cardElevation">
+
+                <EditText
+                    android:id="@+id/textNoteET"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/textNoteET_300dp"
+                    android:layout_margin="@dimen/margin"
+                    android:hint="@string/textNoteET_Hint"
+                    android:inputType="text"
+                    android:gravity="start"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/Grey"
+                    android:textSize="@dimen/textNoteET_20sp"
+                    android:textStyle="italic"></EditText>
+
+            </androidx.cardview.widget.CardView>
+
+            <include
+                android:id="@+id/createNoteButtom"
+                layout="@layout/new_delete_all_buttom_item"></include>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
